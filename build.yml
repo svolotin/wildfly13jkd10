@@ -1,0 +1,5 @@
+version: '2'
+services:
+  wildfly:
+    build: .
+    image: dryseawind/wildfly13jkd10
