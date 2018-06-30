@@ -12,3 +12,5 @@ FROM dryseawind/wildfly13jkd10
 ADD ./deployments /opt/jboss/wildfly-13.0.0.Final/standalone/deployments (for deploying your war)
 
 CMD ["/opt/jboss/wildfly-13.0.0.Final/bin/standalone.sh", "-c", "standalone-ee8.xml", "-b", "0.0.0.0", "-bmanagement", "0.0.0.0" , "--debug"]
+
+Docker hub: https://hub.docker.com/r/dryseawind/wildfly13jkd10/
