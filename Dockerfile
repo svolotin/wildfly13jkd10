@@ -52,7 +52,6 @@ RUN rmdir /opt/jboss/wildfly-13.0.0.Final/standalone/tmp/auth && \
 # Expose the ports we're interested in
 EXPOSE 8080
 EXPOSE 9990
-EXPOSE 8787
 
 # Set the default command to run on boot
 # This will boot WildFly in the standalone mode and bind to all interface
